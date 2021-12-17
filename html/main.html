@@ -4,31 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
     <title>toyProject</title>
 </head>
 <body>
     <main>
         <!-- 시간 배터리량 -->
-        <div></div>
+        <div class="time"></div>
         <section>
             <div class="cost_of_living">
                 <header></header>
-                <article>
+                <article class="money">
                     <div>
-                        <input type="text">
+                        <div class="whiteBox">
+                            <div >
+                                <p>355-673877-78773</p>
+                                <p>이체</p>
+                            </div>
+                            <strong>1,240,000</strong><br>
+                            <input type="range">
+                        </div>
                     </div>
                     <li>지금 낮은 이자로 생활대출을 신청하세요! <a href="#">Go</a></li>
-                </article>
-                <article>   
                     <ul>
                         <li></li>
                         <li></li>
                     </ul>
-                    <article>
+                </article>
+                <article>   
+                    
+                    <article class="statement">
+                        <div class="goal">
+
+                        </div>
                         <div class="today">
-                            <div>
-                                <p></p>
-                                <p></p>
+                            <div class="today_payment">
+                                <p>오늘</p>
+                                <p>지출</p>
                             </div>
                             <!-- json 파일에서 정보 받아와서 ul태그로 넘김 -->
                             <ul></ul>
@@ -49,7 +61,7 @@
                 </article>
             </div>
 
-             <div class="pocket_money">
+             <div class="pocket_money" hidden>
                 <header>
                     <img src="" alt="" />
                     <h2>의민이 용돈</h2>
@@ -97,7 +109,7 @@
                 </article>
              </div>
 
-             <div class="grandma_bank">
+             <div class="grandma_bank" hidden>
                 <header>
                     <img src="" alt="" />
                     <h2>의민이 용돈</h2>
@@ -152,7 +164,14 @@
                 </article>
              </div>
         </section>
-        <nav></nav>
+        <nav>
+            <div>
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+            </div>
+        </nav>
     </main> 
 
 </body>

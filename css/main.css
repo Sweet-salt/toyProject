@@ -1,0 +1,84 @@
+body{
+    background-color: #E5E5E5;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+main{
+    position: relative;
+    width: 391px;
+    height: 830px;
+    border: 2px solid #FF0000;
+    box-sizing: border-box;
+}
+
+.time{
+    margin-top: 12px;
+    margin-left: 9px;
+    margin-right: 9px;
+    width: 373px;
+    height: 43px;
+    left: 9px;
+    top: 12px;
+    background-color: #ff0099;
+}
+
+section{
+    width: 373px;
+    height: 694px;
+    left: 9px;
+    top: 55px;
+    margin: 0 9px;
+    border: 3px solid #3E31DC;
+    box-sizing: border-box;   
+}
+
+section header{
+    width: 359px;
+    height: 66px;
+    left: 17px;
+    top: 62px;
+    margin: 6px 7px 8px 6px;
+    border: 2px solid #FFC700;
+    box-sizing: border-box;
+}
+
+section .money{
+    width: 359px;
+    height: 215px;
+    left: 17px;
+    top: 135px;
+    margin: 0px 7px 8px 6px;
+    border: 2px solid #00FF19;
+    box-sizing: border-box;
+}
+section .money .whiteBox{
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+section .statement{
+    width: 359px;
+    height: 381px;
+    left: 17px;
+    top: 357px;
+    margin: 0px 6px;
+    border: 2px solid #B32FB6;
+    box-sizing: border-box;
+}
+section .statement .today > .today_payment{
+    display: flex;
+}
+/* nav */
+main nav{
+    width: 373px;
+    height: 74px;
+    left: 9px;
+    top: 749px;
+    margin: 0 7px 9px;
+    border: 2px solid #BF0C0C;
+    
+}
