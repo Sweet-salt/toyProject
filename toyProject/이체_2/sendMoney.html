@@ -31,18 +31,18 @@
     <div class="line"></div>
     <p class="account">생활비 계좌 : 1,752,900에서</p>
     <table>
-      <tr class="number__line">
-        <td class="n1">1</td>
-        <td class="n2">2</td>
-        <td>3</td>
+      <tr class="number__line" onclick="openBox()">
+        <td class="n1" id="number1" >1</td>
+        <td class="n2" id="number2">2</td>
+        <td id="number3">3</td>
       </tr>
       <tr class="number__line">
-        <td class="n1">4</td>
-        <td class="n2">5</td>
-        <td>6</td>
+        <td class="n1" id="number4">4</td>
+        <td class="n2" id="number5">5</td>
+        <td id="number6">6</td>
       </tr>
       <tr class="number__line">
-        <td class="n1">7</td>
+        <td class="n1" id="number7">7</td>
         <td class="n2">8</td>
         <td>9</td>
       </tr>
@@ -51,6 +51,7 @@
         <td class="n2">00</td>
         <td>x</td>
       </tr>
+      <div class="next">다음</div> 
     </table>
   </article>
   <nav>
@@ -61,6 +62,7 @@
       <li>4</li>
     </ul>
   </nav>
+  <script src="./sendMoney.js"></script>
 </body>
 
 </html>
