@@ -133,6 +133,19 @@ article .account{
   color: #000000;
 }
 
+article .selectedNumber{
+  position: absolute;
+  width: 133px;
+  height: 53px;
+  left: 161px;
+  top: 130px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: right;
+  letter-spacing: -0.24px
+}
+
 table{
   position: absolute;
   width: 284px;
@@ -155,12 +168,28 @@ article table tr{
   column-gap: 110px;
   
 }
-article table tr td{
+article table tr td input{
   width: 22px;
   height: 53px;
   left: 178px;
   top: 289px;
   letter-spacing: -0.24px;
+}
+
+#showBox{
+  position: absolute;
+  width: 377px;
+  height: 48px;
+  left: 0px;
+  top: 583px;
+
+  text-align: center;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 /******************* 

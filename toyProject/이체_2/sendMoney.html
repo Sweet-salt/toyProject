@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./sendMoneyStyle.css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 
@@ -28,30 +28,31 @@
       </div>
     </div>
     <p class="won">원</p>
+    <div class="selectedNumber"></div>
     <div class="line"></div>
     <p class="account">생활비 계좌 : 1,752,900에서</p>
-    <table>
-      <tr class="number__line" onclick="openBox()">
-        <td class="n1" id="number1" >1</td>
-        <td class="n2" id="number2">2</td>
-        <td id="number3">3</td>
+    <table onclick="openBox()">
+      <tr class="number__line" >
+        <td class="n1 number1" onclick="printNumber()">1</td>
+        <td class="n2 number2">2</td>
+        <td class="number3">3</td>
       </tr>
       <tr class="number__line">
-        <td class="n1" id="number4">4</td>
-        <td class="n2" id="number5">5</td>
-        <td id="number6">6</td>
+        <td class="n1 number4" onclick="">4</td>
+        <td class="n2 number5">5</td>
+        <td class="number6">6</td>
       </tr>
       <tr class="number__line">
-        <td class="n1" id="number7">7</td>
-        <td class="n2">8</td>
-        <td>9</td>
+        <td class="n1 number7">7</td>
+        <td class="n2 number8">8</td>
+        <td class="number9">9</td>
       </tr>
       <tr class="number__line">
-        <td class="n1">0</td>
-        <td class="n2">00</td>
-        <td>x</td>
+        <td class="n1 number0">0</td>
+        <td class="n2 number00" onclick="printNumber00()">00</td>
+        <td class="deleteNumber">x</td>
       </tr>
-      <div class="next">다음</div> 
+      <div class="next" id="showBox"></div> 
     </table>
   </article>
   <nav>
