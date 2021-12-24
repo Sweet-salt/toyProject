@@ -35,7 +35,7 @@ h1 {
   position: absolute;
   width: 44px;
   height: 36px;
-  left: 29px;
+  left: 20px;
   top: 77px;
 
   margin-top: 33px;
@@ -67,7 +67,6 @@ article{
   position: absolute;
   width: 377px;
   height: 631px;
-  left: 0px;
   top: 105px;
   
 }
@@ -75,7 +74,7 @@ article .detail{
   position: absolute;
   width: 317px;
   height: 54px;
-  left: 30px;
+  left: 20px;
   top: 46px;
   margin: 46px 531px 30px 30px;
 }
@@ -86,7 +85,7 @@ article .detail{
   position: absolute;
   width: 23px;
   height: 36px;
-  left: 308px;
+  left: 300px;
   top: 142px;
 
   margin: 42px 6px 308px 46px;
@@ -103,7 +102,7 @@ article .detail{
 article .line{
   position: absolute;
   width: 316px;
-  left: 29px;
+  left: 20px;
   top: 184px;
 
   margin-top: 42px;
@@ -138,7 +137,7 @@ article .selectedNumber{
   width: 133px;
   height: 53px;
   left: 161px;
-  top: 130px;
+  top: 175px;
   font-weight: 500;
   font-size: 36px;
   line-height: 53px;
@@ -153,6 +152,7 @@ table{
   left: 46px;
   top: 289px;
 
+  
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -178,9 +178,7 @@ article table tr td input{
 
 #showBox{
   position: absolute;
-  width: 377px;
-  height: 48px;
-  left: 0px;
+
   top: 583px;
 
   text-align: center;
