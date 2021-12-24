@@ -6,7 +6,7 @@ const url = "https://jeondoh.github.io/FC_Lecture/ToyProject01/files/A1jo.json";
 function draw4(){
     
     $.getJSON('https://jeondoh.github.io/FC_Lecture/ToyProject01/files/A1jo.json', function (json_data) {
-       
+        console.log(json_data)
         const barChart = new Chart(ctx, {
             type: 'bar',
             data: {
@@ -16,7 +16,11 @@ function draw4(){
                     {
                         label: "일간 리포트",
                         data: [
-                            
+                            json_data.bankList[0].price,
+                            json_data.bankList[1].price,
+                            json_data.bankList[2].price,
+                            json_data.bankList[3].price,
+                            json_data.bankList[4].price,
                         ]
                     }
                 ]
